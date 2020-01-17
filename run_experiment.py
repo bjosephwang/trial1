@@ -3,8 +3,6 @@ import torch.utils.data
 from torchvision import datasets, transforms
 import numpy as np
 import argparse
-from lib.stackedDAE import StackedDAE
-from lib.dec import DEC
 from lib.dec_f import DEC_F
 from lib.dcn import DeepClusteringNetwork
 from lib.utils import acc
